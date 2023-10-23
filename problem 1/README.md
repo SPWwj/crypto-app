@@ -1,10 +1,12 @@
 # Problem 1
 
 1. **Formula Implementation**:
-   The formula for summing the first \( n \) positive integers is derived from an arithmetic progression. The formula is given by:
+   The formula for summing the first \( n \) positive integers is derived from an arithmetic progression. The formula is given by: (n * (n + 1)) / 2
+   Or
    $$
    \text{sum} = \frac{n(n + 1)}{2}
    $$
+
    - The function `sum_to_n_a` takes a single argument \( n \).
    - Inside the function, the formula is used to calculate the sum, which is then returned.
    - This implementation has a time complexity of \( O(1) \) as it computes the result directly using a formula. The space complexity is also \( O(1) \) as there are no additional data structures used that grow with input size.
